@@ -1,6 +1,6 @@
 <template>
   <main
-    class="h-full w-full bg-gradient-to-r from-blue-500 to-green-400 flex flex-col md:flex-row px-5 py-5 gap-x-5 gap-y-5"
+    class="font-Poppins h-full w-full bg-gradient-to-r from-blue-500 to-green-400 flex flex-col md:flex-row px-5 py-5 gap-x-5 gap-y-5"
   >
     <section class="w-full md:w-1/4 container flex flex-col rounded-lg gap-y-5">
       <section class="flex px-10 py-10 flex-col gap-y-3 bg-gray-300 rounded-lg">
@@ -22,15 +22,20 @@
       </section>
       <section class="flex px-10 py-10 flex-col gap-y-3 bg-gray-300 rounded-lg">
         <h1 class="text-xl font-bold">Skills</h1>
-        <div class="flex flex-row gap-x-3">
+        <div class="flex flex-row gap-x-2">
           <h2 class="text-blue-500 font-bold">HTML/CSS</h2>
           <h2 class="text-blue-500 font-bold">Javascript</h2>
           <h2 class="text-blue-500 font-bold">Typescript</h2>
         </div>
-        <div class="flex flex-row gap-x-3">
+        <div class="flex flex-row gap-x-2">
           <h2 class="text-blue-500 font-bold">SQL</h2>
           <h2 class="text-blue-500 font-bold">Vue</h2>
           <h2 class="text-blue-500 font-bold">React</h2>
+        </div>
+        <div class="flex flex-row gap-x-2">
+          <h2 class="text-blue-500 font-bold">Java</h2>
+          <h2 class="text-blue-500 font-bold">Python</h2>
+          <h2 class="text-blue-500 font-bold">C++</h2>
         </div>
       </section>
     </section>
