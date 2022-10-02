@@ -3,10 +3,11 @@
     class="font-Poppins h-full w-full bg-gradient-to-r from-blue-500 to-green-400 flex flex-col md:flex-row px-5 py-5 gap-x-5 gap-y-5"
   >
     <section class="w-full md:w-1/4 container flex flex-col rounded-lg gap-y-5">
+      <!-- Header -->
       <section class="flex px-10 py-10 flex-col gap-y-3 bg-gray-300 rounded-lg">
         <img
           width="100"
-          class="rounded-lg border-solid border-2 border-gray-400"
+          class="rounded-lg border-solid border-2 border-gray-400 drop-shadow-lg"
           src="./assets/my-foto.jpg"
           alt="My Foto"
         />
@@ -20,6 +21,8 @@
           </button>
         </div>
       </section>
+      <!--End  Header -->
+      <!-- Skills -->
       <section class="flex px-10 py-10 flex-col gap-y-3 bg-gray-300 rounded-lg">
         <h1 class="text-xl font-bold">Skills</h1>
         <div class="flex flex-row gap-x-2">
@@ -38,8 +41,10 @@
           <h2 class="text-blue-500 font-bold">C++</h2>
         </div>
       </section>
+      <!-- End Skills -->
     </section>
     <section class="w-full md:w-3/4 flex gap-y-5 flex-col">
+      <!-- About -->
       <section class="flex px-10 py-10 flex-col gap-y-3 bg-gray-300 rounded-lg">
         <h1 class="text-xl font-bold">About Me</h1>
         <p>
@@ -68,6 +73,7 @@
           /></a>
         </div>
       </section>
+      <!-- End About -->
       <section class="flex px-10 py-10 flex-col gap-y-3 bg-gray-300 rounded-lg">
         <h1 class="text-xl font-bold">Education</h1>
         <div class="flex flex-col gap-y-3">
@@ -83,11 +89,14 @@
           </div>
         </div>
       </section>
-      <section class="flex px-10 py-10 flex-col gap-y-5 bg-gray-300 rounded-lg">
+      <!-- Projects -->
+      <section
+        class="flex px-10 py-10 flex-col gap-y-5 bg-gray-300 rounded-lg drop-shadow-lg"
+      >
         <h1 class="text-xl font-bold">Projects</h1>
         <div class="flex flex-col md:flex-row gap-x-5 gap-y-5">
           <div
-            class="flex flex-col justify-center w-full md:w-1/3 bg-blue-500 rounded-lg overflow-hidden text-white hover:bg-green-400 cursor-pointer"
+            class="hover:scale-105 ease-in-out duration-300 transition flex flex-col justify-center w-full md:w-1/3 bg-blue-500 rounded-lg overflow-hidden text-white hover:bg-green-400 cursor-pointer"
           >
             <img class="" src="./assets/project-himatif.png" alt="HIMATIF" />
             <div class="px-3 py-3">
@@ -96,7 +105,7 @@
             </div>
           </div>
           <div
-            class="flex flex-col justify-center w-full md:w-1/3 bg-blue-500 rounded-lg overflow-hidden text-white hover:bg-green-400 cursor-pointer"
+            class="hover:scale-105 ease-in-out duration-300 transition flex flex-col justify-center w-full md:w-1/3 bg-blue-500 rounded-lg overflow-hidden text-white hover:bg-green-400 cursor-pointer"
           >
             <img class="" src="./assets/project-survey.png" alt="Survey Form" />
             <div class="px-3 py-3">
@@ -105,7 +114,7 @@
             </div>
           </div>
           <div
-            class="flex flex-col justify-center w-full md:w-1/3 bg-blue-500 rounded-lg overflow-hidden text-white hover:bg-green-400 cursor-pointer"
+            class="hover:scale-105 ease-in-out duration-300 transition flex flex-col justify-center w-full md:w-1/3 bg-blue-500 rounded-lg overflow-hidden text-white hover:bg-green-400 cursor-pointer"
           >
             <img class="" src="./assets/project-icc.png" alt="ICC" />
             <div class="px-3 py-3">
@@ -116,7 +125,7 @@
         </div>
         <div class="flex flex-col md:flex-row gap-x-5 gap-y-5">
           <div
-            class="flex flex-col justify-center w-full md:w-1/3 bg-blue-500 rounded-lg overflow-hidden text-white hover:bg-green-400 cursor-pointer"
+            class="hover:scale-105 ease-in-out duration-300 transition flex flex-col justify-center w-full md:w-1/3 bg-blue-500 rounded-lg overflow-hidden text-white hover:bg-green-400 cursor-pointer"
           >
             <img class="" src="./assets/project-votsu.jpeg" alt="VOTING" />
             <div class="px-3 py-3">
@@ -125,7 +134,7 @@
             </div>
           </div>
           <div
-            class="flex flex-col justify-center w-full md:w-1/3 bg-blue-500 rounded-lg overflow-hidden text-white hover:bg-green-400 cursor-pointer"
+            class="hover:scale-105 ease-in-out duration-300 transition flex flex-col justify-center w-full md:w-1/3 bg-blue-500 rounded-lg overflow-hidden text-white hover:bg-green-400 cursor-pointer"
           >
             <img class="" src="./assets/project-makrab.jpeg" alt="Makrab" />
             <div class="px-3 py-3">
@@ -134,7 +143,7 @@
             </div>
           </div>
           <div
-            class="flex flex-col justify-center w-full md:w-1/3 bg-blue-500 rounded-lg overflow-hidden text-white hover:bg-green-400 cursor-pointer"
+            class="hover:scale-105 ease-in-out duration-300 transition flex flex-col justify-center w-full md:w-1/3 bg-blue-500 rounded-lg overflow-hidden text-white hover:bg-green-400 cursor-pointer"
           >
             <img class="" src="./assets/project-adhoc.png" alt="ADHOC" />
             <div class="px-3 py-3">
@@ -145,7 +154,7 @@
         </div>
         <div class="flex flex-col md:flex-row gap-x-5 gap-y-5">
           <div
-            class="flex flex-col justify-center w-full md:w-1/3 bg-blue-500 rounded-lg overflow-hidden text-white hover:bg-green-400 cursor-pointer"
+            class="hover:scale-105 ease-in-out duration-300 transition flex flex-col justify-center w-full md:w-1/3 bg-blue-500 rounded-lg overflow-hidden text-white hover:bg-green-400 cursor-pointer"
           >
             <img class="" src="./assets/project-taskxu.jpeg" alt="TASKXU" />
             <div class="px-3 py-3">
@@ -154,7 +163,7 @@
             </div>
           </div>
           <div
-            class="flex flex-col justify-center w-full md:w-1/3 bg-blue-500 rounded-lg overflow-hidden text-white hover:bg-green-400 cursor-pointer"
+            class="hover:scale-105 ease-in-out duration-300 transition flex flex-col justify-center w-full md:w-1/3 bg-blue-500 rounded-lg overflow-hidden text-white hover:bg-green-400 cursor-pointer"
           >
             <img class="" src="./assets/project-makrab.jpeg" alt="Makrab" />
             <div class="px-3 py-3">
@@ -163,7 +172,7 @@
             </div>
           </div>
           <div
-            class="flex flex-col justify-center w-full md:w-1/3 bg-blue-500 rounded-lg overflow-hidden text-white hover:bg-green-400 cursor-pointer"
+            class="hover:scale-105 ease-in-out duration-300 transition flex flex-col justify-center w-full md:w-1/3 bg-blue-500 rounded-lg overflow-hidden text-white hover:bg-green-400 cursor-pointer"
           >
             <img class="" src="./assets/project-adhoc.png" alt="ADHOC" />
             <div class="px-3 py-3">
@@ -173,6 +182,7 @@
           </div>
         </div>
       </section>
+      <!-- End Projects -->
     </section>
   </main>
 </template>
