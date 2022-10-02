@@ -15,7 +15,7 @@
         <p>Junior Web Developer</p>
         <div>
           <button
-            class="text-base py-2 px-3 rounded-lg bg-blue-500 text-white font-bold hover:bg-green-400"
+            class="hover:scale-105 ease-in-out duration-300 transition text-base py-2 px-3 rounded-lg bg-blue-500 text-white font-bold hover:bg-green-400"
           >
             Download CV
           </button>
@@ -55,18 +55,26 @@
           sugiartofahmi@gmail.com
         </h2>
         <div class="flex fle-row gap-x-3 items-center">
-          <a href="https://github.com/sugiartofahmi" target="_blank"
+          <a
+            class="hover:scale-125 ease-in-out duration-300 transition"
+            href="https://github.com/sugiartofahmi"
+            target="_blank"
             ><img src="./assets/icon-github.svg" alt="Icon github"
           /></a>
-          <a href="https://www.instagram.com/fahmisugiarto24" target="_blank"
+          <a
+            class="hover:scale-125 ease-in-out duration-300 transition"
+            href="https://www.instagram.com/fahmisugiarto24"
+            target="_blank"
             ><img src="./assets/icon-instagram.svg" alt="Icon Instagram"
           /></a>
           <a
+            class="hover:scale-125 ease-in-out duration-300 transition"
             href="https://api.whatsapp.com/send?phone=6289643242453"
             target="_blank"
             ><img src="./assets/icon-whatsapp.svg" alt="Icon Whatsapp"
           /></a>
           <a
+            class="hover:scale-125 ease-in-out duration-300 transition"
             href="https://www.linkedin.com/in/mohammad-nurfahmi-sugiarto-a2a8b0249/"
             target="_blank"
             ><img src="./assets/icon-linkedin.svg" alt="Icon Linkedin"
